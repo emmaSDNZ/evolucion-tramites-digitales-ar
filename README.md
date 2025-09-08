@@ -63,3 +63,9 @@ evolucion-tramites-digitales-ar/
 ├── src/
 │   └── funciones_auxiliares.py # Scripts de limpieza o preprocesamiento si aplican
 └── README.md               # Presentación del proyecto
+
+
+## Autor
+Isaias Emanuel Sudañez – Estudiante de Ciencias de Datos e IA  
+
+Proyecto desarrollado en el marco del espacio curricular Análisis Matemático de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
