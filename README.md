@@ -1,13 +1,13 @@
 # Evolución de los trámites digitales en Mi Argentina
 
-## Descripción
+## 📌 Descripción
 Este proyecto analiza la evolución de los trámites digitalizados en la plataforma *Mi Argentina*, aplicando herramientas de **análisis matemático y ciencia de datos**. Se estudia la evolución temporal de los trámites mediante **funciones, derivadas e integrales**, y se complementa con visualizaciones interactivas en Python y un dashboard en Power BI.
 
 El objetivo principal es entender cómo se han incorporado los trámites digitales, evaluar la velocidad de crecimiento y la acumulación de servicios a lo largo del tiempo, y analizar brechas sociales en el acceso a la digitalización estatal.
 
 ---
 
-## Objetivos
+## 🎯 Objetivos
 
 **Generales:**
 - Modelar matemáticamente la evolución de los trámites digitales en el tiempo.
@@ -21,7 +21,7 @@ El objetivo principal es entender cómo se han incorporado los trámites digital
 
 ---
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 - **Python:** Pandas, Numpy, Matplotlib, Plotly, Scipy
 - **Power BI:** Dashboard interactivo
 - **Google Forms / Typeform:** Encuestas complementarias sobre percepción ciudadana
@@ -46,7 +46,7 @@ El objetivo principal es entender cómo se han incorporado los trámites digital
 
 ---
 
-## Estructura del repositorio
+## 📂 Estructura del repositorio
 
 ```text
 evolucion-tramites-digitales-ar/
@@ -54,7 +54,7 @@ evolucion-tramites-digitales-ar/
 │   ├── raw/                # Dataset(s) originales
 │   └── processed/          # Dataset(s) limpios y listos para análisis
 ├── notebooks/
-│   └── 02_analisis_matematico.ipynb   # Notebook completo con preprocesamiento, modelado y visualizaciones
+│   └── 01_analisis_matematico.ipynb   # Notebook completo con preprocesamiento, modelado y visualizaciones
 ├── powerbi/
 │   ├── dashboard.pbix       # Archivo de Power BI
 │   └── capturas/            # Capturas de pantalla para README
@@ -63,13 +63,3 @@ evolucion-tramites-digitales-ar/
 ├── src/
 │   └── funciones_auxiliares.py # Scripts de limpieza o preprocesamiento si aplican
 └── README.md               # Presentación del proyecto
-
-
-## 🔗 Recursos
-- [Dashboard en Power BI](URL_AQUI)  
-- [Informe técnico](report/Informe_Tecnico.pdf)  
-
-## Autor
-Isaias Emanuel Sudañez – Estudiante de Ciencias de Datos e IA  
-
-Proyecto desarrollado en el marco del espacio curricular Análisis Matemático de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
