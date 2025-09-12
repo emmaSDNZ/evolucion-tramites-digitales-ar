@@ -46,6 +46,17 @@ El objetivo principal es entender cómo se han incorporado los trámites digital
 
 ---
 
+## 📈 Conexión con el Negocio y Proyecciones
+
+Para trasladar este análisis de la teoría a la práctica, los modelos matemáticos se visualizan en un **dashboard de Power BI**, diseñado específicamente para la toma de decisiones ejecutivas. Este enfoque permite:
+
+* **Identificar patrones de negocio**: La derivada **$F'(t)$** (tasa de crecimiento diaria) se traduce en la detección de picos y caídas de trámites. Esto ayuda a los equipos a entender el impacto de eventos como lanzamientos de nuevos servicios o cambios en la normativa.
+* **Evaluar la estacionalidad**: El análisis de la función **$F(t)$** por mes permite identificar patrones estacionales, como meses de alta o baja demanda. Esta información es crucial para la planificación de recursos humanos y tecnológicos.
+* **Proyectar el futuro**: Basándose en los datos históricos, se implementa un modelo de proyección lineal (y se puede considerar un modelo polinómico para mayor precisión) con el fin de anticipar el volumen de trámites futuros.
+* **Planificación estratégica**: Se definen escenarios de planificación (optimista y pesimista) directamente en el dashboard, proporcionando un rango de posibles resultados para mitigar la incertidumbre en la toma de decisiones.
+
+---
+
 ## 📂 Estructura del repositorio
 
 ```text
@@ -54,9 +65,9 @@ evolucion-tramites-digitales-ar/
 │   ├── raw/                # Dataset(s) originales
 │   └── processed/          # Dataset(s) limpios y listos para análisis
 ├── notebooks/
-│   └── 01_analisis_matematico.ipynb   # Notebook completo con preprocesamiento, modelado y visualizaciones
+│   └── 02_analisis_matematico.ipynb   # Notebook completo con preprocesamiento, modelado y visualizaciones
 ├── powerbi/
-│   ├── dashboard.pbix       # Archivo de Power BI
+│   ├── avolucion-tramites-digitales-argentina.pbix       # Archivo de Power BI
 │   └── capturas/            # Capturas de pantalla para README
 ├── report/
 │   └── Informe_Tecnico.pdf  # Informe final en PDF
@@ -65,7 +76,11 @@ evolucion-tramites-digitales-ar/
 └── README.md               # Presentación del proyecto
 
 
-## Autor
-Isaias Emanuel Sudañez – Estudiante de Ciencias de Datos e IA  
+## Autores 
+Isaias Emanuel Sudañez,   
+Luciana Goldraij 
+Baigorria Sol Milagros, 
+Luciano Castillo.
 
-Proyecto desarrollado en el marco del espacio curricular Análisis Matemático de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+
+Proyecto desarrollado en el marco del espacio curricular Análisis Matemático de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial del ISPC.
